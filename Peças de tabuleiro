@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main () {
+    int i;
+
+    for (i = 0; i < 8; i++) {
+        printf("A rainha andou pra esquerda\n");
+    }
+    i = 0;
+    while(i < 5 ) {
+        printf(" A torre andou pra frente\n");
+        i++;
+    }
+    i = 0;
+    do {
+        printf("O bispo andou em diagonal pra direita\n");
+        i++;
+     } while(i < 5);
+     
+     return 0;
+    
+
+}
